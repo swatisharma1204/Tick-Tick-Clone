@@ -1,0 +1,41 @@
+.btn {
+    width: 90%;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 2px 5px;
+    border: none;
+    background-color: white;
+    text-align-last: left;
+    padding-left: 20px;
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .btn.active {
+    background-color: #f3f3f3; /* Button color when clicked or active */
+  }
+  
+  .btn.active:hover {
+    background-color: #f3f3f3; /* Keep the color on hover when active */
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .left-bar {
+    margin-top: 5px;
+    margin-left: 5px;
+    position: fixed;
+  }
+  
+  .line {
+    /* Add styles for line if needed */
+  }
+  

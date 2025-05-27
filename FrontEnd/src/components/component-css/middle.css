@@ -1,0 +1,132 @@
+.title-bar {
+    display: flex;
+    /* margin-bottom: 20px; */
+    align-items: center;
+    gap: 8px;
+  }
+  
+.input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 5px;
+}
+
+.input-box{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.close-leftbar{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  cursor: pointer;
+}
+.inbox-text{
+  margin: 0px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+span{
+  color: #456DEE;
+}
+
+
+.text-box {
+  flex: 1;
+  padding: 20px 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.date-picker-icon {
+  right: 40px; 
+}
+
+.priority-icon {
+  right: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+  
+.span-pr{
+  float: right;
+  padding: 2px;
+  padding-top: 5px;
+}
+.checkbox{
+  color: red;
+}
+
+.buttonPriority{
+  background-color: red;
+}
+
+.list-item {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+
+.list-item.selected {
+  background-color: #F8F8F8;
+  border-radius: 8px;
+}
+
+
+.title-box {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 68%;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  /* min-width: 40px; */
+  width: 0;
+}
+
+hr.hor-row{
+  border-top: 1px solid rgb(243, 243, 243);
+  margin: 0px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.middle-box {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+.task-list {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 20px;
+}
+
+.list{
+  list-style-type: none;
+  margin-left: 20px;
+}

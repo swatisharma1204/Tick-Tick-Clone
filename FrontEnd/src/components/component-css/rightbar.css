@@ -1,0 +1,59 @@
+.right-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.top-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Adjust the gap between elements as needed */
+  margin: 10px 20px;
+}
+
+.input-container, .parent-container {
+  width: 100%;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+.parent-container {
+  height: 800px;
+}
+
+.rightbar-title {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+input.rightbar-title {
+  padding-left: 15px;
+}
+
+.rightbar-desc {
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icon-button {
+  padding: 0;
+}
+
+.text-boxes {
+  border-top: 2px solid rgb(243, 243, 243);
+}
